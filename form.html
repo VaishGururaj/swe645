@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./bootstrap/favicon.ico">
+    <title>Survey Form</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+    <h1 id="title" class="justify-content-center">Student Survey Form
+    <a href="https://assign1swe645.s3.amazonaws.com/index.html" class="btn btn-lg btn-secondary" style="position:absolute;right:10px;">Go to Homepage</a>
+    </h1>
+    </div>
+    <form id="survey-form">
+      <div class="form-group">
+        <div class="row">
+          <div class="col">
+            <label for="firstName">First Name*</label>
+            <input type="text" class="form-control" placeholder="First name" required>
+          </div>
+          <div class="col">
+            <label id="name-label" for="lastName">Last Name*</label>
+            <input type="text" class="form-control" placeholder="Last name" required>
+          </div>
+        </div>
+      </div>
+        <div class="form-group">
+          <label for="inputAddress">Address Line 1*</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address Line 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+      <div class="form-group">
+        <div class="row">
+        <div class="col-md-6">
+          <label for="inputCity">City*</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="City" required>
+        </div>
+        <div class="col-md-4">
+          <label for="inputState">State*</label>
+          <input type="text" class="form-control" id="inputState" placeholder="State" required>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip">Zip*</label>
+          <input type="text" class="form-control" id="inputZip" placeholder="Zip" required>
+        </div>
+      </div>
+      </div>
+      <div class="form-group">
+        <label class="required-label" for="phone">Telephone Number*</label>
+        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Telephone Number" required>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail1">Email address*</label>
+        <input type="email" class="form-control" id="inputEmail1" aria-describedby="email" placeholder="Enter email" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label class="required-label" for="date">Date of Survey*</label>
+        <input type="date" class="form-control" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <p>What did you like most about the campus?</p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="Students">
+            <label class="form-check-label" for="inlineCheckbox11">Students</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="Location">
+            <label class="form-check-label" for="inlineCheckbox12">Location</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="campus">
+            <label class="form-check-label" for="inlineCheckbox13">Campus</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="atmosphere">
+            <label class="form-check-label" for="inlineCheckbox14">Atmosphere</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox15" value="dorms">
+            <label class="form-check-label" for="inlineCheckbox15">Dorm room</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox16" value="sports">
+            <label class="form-check-label" for="inlineCheckbox16">Sports</label>
+          </div>
+      </div>
+      <div class="form-group">
+        <p>How did you become interested in the University?</p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" id="inlineradio1" name="inlineRadioOptions" value="radioFriends">
+          <label class="form-check-label" for="inlineCheckbox1">Friends</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" id="inlineradio2" name="inlineRadioOptions" value="radioTele">
+          <label class="form-check-label" for="inlineCheckbox2">Television</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" id="inlineradio3" name="inlineRadioOptions" value="radioInternet">
+          <label class="form-check-label" for="inlineCheckbox3">Internet</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" id="inlineradio4" name="inlineRadioOptions" value="radioOthers">
+          <label class="form-check-label" for="inlineCheckbox4">Others</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label"><p>Select the likelihood of recommending this school to other prospective students</p></div>
+            <select class="custom-select">
+              <option value="">Select an option</option>
+              <option value="1">Very Likely</option>
+              <option value="2">Likely</option>
+              <option value="3">Unlikely</option>
+            </select>
+      </div>
+      <div class="form-group">
+        <label for="raffle">Please enter 10 numbers separated with a comma from 1-100 to enter into a raffle.</label>
+        <textarea class="form-control" id="raffle" rows="2" placeholder="10,99,43..."></textarea>
+        <small class="form-text text-muted">Winners will get a free movie ticket! Don't lose this opportunity!!</small>
+      </div>
+      <div class="form-group">
+        <label for="textarea1">Additional Comments</label>
+        <textarea class="form-control" id="textarea1" rows="4"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button id="cancel" class="btn btn-secondary" onclick="document.getElementById('survey-form').reset()">Cancel</button>
+      </div>
+    </form>
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="./bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+      <script src="./bootstrap/assets/js/vendor/popper.min.js"></script>
+      <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="./bootstrap/assets/js/vendor/holder.min.js"></script>
+  </body>
+  <style>
+    body {
+      width: 100%;
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      background-color: #47474e;
+      color: rgb(240, 240, 240);
+    }
+    #title, #description {
+      margin: 1.5rem auto;
+      text-align: center;
+    }
+    form {
+      margin: 1rem auto;
+      width: 70%;
+      min-width: 400px;
+      max-width: 700px;
+      background-color:#224058 ;
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+    }
+    .form-group{
+      margin: 1rem;
+      padding:0.5rem;
+    }
+  </style>
+</html>

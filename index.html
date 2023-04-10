@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./bootstrap/favicon.ico">
+    <title>Homepage</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">About me</h4>
+                <p class="text-muted">I am Vaishnavi Gururaj, a second semester grad student in the MSCS program. I have taken SWE645 course this semester. I am a bibliophile and I enjoy binge watching series.
+                    You can use the email provided to contact me.
+                </p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contact</h4>
+                <ul class="list-unstyled">
+                  <li><a href="mailto: vgururaj@gmu.edu" class="text-muted">Email me</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>Home</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <div class="card mb-3">
+            <img class="card-img-top" src="./images/school.jpg" alt="Image of school building.">
+            <div class="card-body text-center">
+              <h5 class="card-title">Volgenau School of Engineering</h5>
+              <p>The Volgenau School offers an array of master's and doctoral degrees that can propel you to the next stage in your career. You can choose from our list of 20+ degrees to see how you can get started on your Mason path on our official website.</p>
+            </div>
+          </div>
+
+        <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">SWE645 : Component based software development</h1>
+            <p class="lead text-muted">SWE645 covers some of the topics related to the software development models that are used to support component-based software systems. We will be
+                studying the software design and development side of component-based software that includes design principles to architect resilient, highly available,
+                performance oriented, and secure applications in AWS cloud. The course content will largely focus on server-side software design and development. We will learn technologies 
+                such as Resilient Architectures in AWS cloud, MVCbased Java Server Faces (JSF) Web Development Framework PrimeFaces, Angular-JavaScript Framework, Python Programming,
+                DevOps-CI/CD, Containerized Microservices, Kubernetes, Java Persistence API (JPA 2.0)/ Hibernate, NoSQL Databases/ DynamoDB, Data Warehousing/ Redshift, RESTful Web services, 
+                and Serverless Computing (AWS Lambda, API Gateway). We will use a cloud computing platform: Amazon Web Services (AWS) to deploy applications developed as programming projects for the course.
+            </p>
+        </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="./images/assignment.jpg" alt="Card assignment image">
+                <div class="card-body">
+                  <p class="card-text">This is a link to Part 2 of Assignment 1 that has a link to survey page. Part 1 is this homepage.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a href="https://ec2-18-224-183-137.us-east-2.compute.amazonaws.com/assignment1/" class="btn btn-sm btn-outline-secondary" role="button">
+                            Go to survey page
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" src="./images/assignment.jpg" alt="Card assignment image">
+                  <div class="card-body">
+                    <p class="card-text">This is the card to update the link for upcoming asignment. No link is provided as it is not assigned yet.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                          <a href="#" class="btn btn-sm btn-outline-secondary" role="button">
+                              Nothing yet!
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </main>
+
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./bootstrap/assets/js/vendor/popper.min.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/assets/js/vendor/holder.min.js"></script>
+  </body>
+  <style>
+    :root {
+    --jumbotron-padding-y: 3rem;
+    }
+    .jumbotron {
+        padding-top: var(--jumbotron-padding-y);
+        padding-bottom: var(--jumbotron-padding-y);
+        margin-bottom: 0;
+        background-color: #fff;
+    }
+    @media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+    }
+    .jumbotron p:last-child {
+    margin-bottom: 0;
+    }
+    .jumbotron-heading {
+    font-weight: 300;
+    }
+    footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+    footer p {
+    margin-bottom: .25rem;
+    }
+    .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  </style>
+</html>
